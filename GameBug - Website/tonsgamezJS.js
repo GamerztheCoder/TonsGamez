@@ -44,7 +44,22 @@ function systemCheck() {
 // Call the system check function
 systemCheck();
 
+let visible = false;
+
 function toggleMenu() {
   let navigation = document.querySelector("#menuList");
-  navigation.classList.replace(".menuShown", ".menuHidden");
+  // navigation.classList.replace(".menuShown", ".menuHidden");
+
+  if (!visible) {
+
+    navigation.style.visible;
+
+  } else {
+
+    navigation.style.hidden;
+
+  }
+
+  visible = !visible;
+
 }

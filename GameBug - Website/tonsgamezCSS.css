@@ -1,0 +1,30 @@
+
+
+#navBar {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 68.5px;
+
+    background-color: #444;
+
+}
+
+#menuIcon {
+
+    position: absolute;
+
+    color: whitesmoke;
+    font-size: 80px;
+    width: fit-content;
+    height: 34.25px;
+    top: -10px;
+    left: 20px;
+    margin: 0;
+
+    white-space: normal;
+
+
+}

@@ -43,3 +43,8 @@ function systemCheck() {
 
 // Call the system check function
 systemCheck();
+
+function toggleMenu() {
+  let navigation = document.querySelector("navBar");
+  navigation.classList.replace("", "");
+}

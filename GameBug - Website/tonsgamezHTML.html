@@ -18,16 +18,17 @@
     <meta name="author" content="Parker Linnig, Aiden Haptonstall" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta charset="UTF-8">
-    <meta name="description" content="A Game Targeted Program That Works Similarly To CoolMathGames">
-    <meta name="keywords" content="Games, Gamebug">
-    <meta name="author" content="Parker Linnig, Aiden Haptonstall">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="A Game Targeted Program That Works Similarly To CoolMathGames"
+    />
+    <meta name="keywords" content="Games, Gamebug" />
+    <meta name="author" content="Parker Linnig, Aiden Haptonstall" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="tonsgamezCSS.css">
-
-</head>
-
+    <link rel="stylesheet" href="tonsgamezCSS.css" />
+  </head>
 
   <body>
     <!-- Nav Bar -->
@@ -39,33 +40,28 @@
             During Menu Active, all the content from the Nav Bar is visible and clickable
         -->
 
-        <div id="menuIcon" onclick="toggleMenu()">≡</div>
-
+      <div id="menuIcon" onclick="toggleMenu()">≡</div>
     </div>
 
-    <ul id="menuList">
-            
-            <!-- 
+    <ul id="menuList" class="menuShown">
+      <!-- 
                 Upon Hover, change from click, make it so that it shops a drop down menu
                 of specific tags or genres. It will also change the content of games from
                 "Games ►" to "Games ▼"
             -->
-            <li onclick="gameDropToggle()" id="gameDropButton">Games ►</li>
+      <li onclick="gameDropToggle()" id="gameDropButton">Games ►</li>
 
-            <!-- 
+      <!-- 
                 Find creators and everything that they have posted
             -->
-            <li>Creators</li>
+      <li>Creators</li>
 
-            <!-- 
+      <!-- 
                 About the website and developers
             -->
-            <li>About Us</li>
-
-        </ul>
-
+      <li>About Us</li>
+    </ul>
   </body>
 
-<script src="tonsgamezJS.js"></script>
-
+  <script src="tonsgamezJS.js"></script>
 </html>

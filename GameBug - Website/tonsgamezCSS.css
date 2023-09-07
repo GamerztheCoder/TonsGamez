@@ -1,53 +1,50 @@
-
-
 #navBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 68.5px;
 
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 68.5px;
-
-    background-color: #444;
-
+  background-color: #444;
 }
 
 #menuIcon {
+  position: absolute;
 
-    position: absolute;
+  color: whitesmoke;
+  font-size: 80px;
+  width: fit-content;
+  height: 34.25px;
+  top: -10px;
+  left: 20px;
+  margin: 0;
 
-    color: whitesmoke;
-    font-size: 80px;
-    width: fit-content;
-    height: 34.25px;
-    top: -10px;
-    left: 20px;
-    margin: 0;
-
-    white-space: normal;
-
-
+  white-space: normal;
 }
 
 #menuList {
-
-    list-style-type: none;
-    position: absolute;
-    top: 0;
-    width: 98vw;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-
+  list-style-type: none;
+  position: absolute;
+  top: 0;
+  width: 98vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 #menuList li {
+  font-size: 35px;
+  color: whitesmoke;
+  display: inline-block;
 
-    font-size: 35px;
-    color: whitesmoke;
-    display: inline-block;
+  margin-left: 80px;
+  margin-right: 80px;
+}
 
-    margin-left: 80px;
-    margin-right: 80px;
+.menuShown {
+  visibility: visible;
+}
 
+.menuHidden {
+  visibility: hidden;
 }

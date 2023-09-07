@@ -28,3 +28,26 @@
 
 
 }
+
+#menuList {
+
+    list-style-type: none;
+    position: absolute;
+    top: 0;
+    width: 98vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+#menuList li {
+
+    font-size: 35px;
+    color: whitesmoke;
+    display: inline-block;
+
+    margin-left: 80px;
+    margin-right: 80px;
+
+}

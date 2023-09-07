@@ -26,20 +26,23 @@ function systemCheck() {
     console.error("JavaScript is not enabled.");
   }
 
-  // Check if the browser supports a specific feature
-  if (typeof someFeature !== "undefined") {
-    console.log("The specific feature is supported.");
+  // Check if pop-ups are allowed
+  if (window.navigator && window.navigator.userAgent) {
+    const isPopupsAllowed =
+      window.navigator.userAgent.includes("Chrome") ||
+      window.navigator.userAgent.includes("Firefox");
+    if (isPopupsAllowed) {
+      console.log("Pop-ups are allowed in this browser.");
+    } else {
+      console.error("Pop-ups are not allowed in this browser.");
+    }
   } else {
-    console.error("The specific feature is not supported.");
-  }
-
-  // Check if there are any specific conditions you want to test
-  if (conditionMet) {
-    console.log("The condition is met.");
-  } else {
-    console.error("The condition is not met.");
+    console.error("Unable to determine pop-up settings.");
   }
 }
+
+// Call the system check function
+systemCheck();
 
 // Call the system check function
 systemCheck();

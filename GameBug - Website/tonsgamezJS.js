@@ -46,5 +46,5 @@ systemCheck();
 
 function toggleMenu() {
   let navigation = document.querySelector("#menuList");
-  navigation.classList.replace("menuShown", "menuHidden");
+  navigation.classList.replace(".menuShown", ".menuHidden");
 }

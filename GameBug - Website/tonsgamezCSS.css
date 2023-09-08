@@ -10,7 +10,7 @@
 
 #menuIcon {
   position: absolute;
-
+  cursor: pointer;
   color: whitesmoke;
   font-size: 80px;
   width: fit-content;

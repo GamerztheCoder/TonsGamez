@@ -44,22 +44,15 @@ function systemCheck() {
 // Call the system check function
 systemCheck();
 
-let visible = false;
+let navigation = document.getElementById("menuList");
+let menuIcon = document.getElementById("menuIcon");
 
 function toggleMenu() {
-  let navigation = document.querySelector("#menuList");
-  // navigation.classList.replace(".menuShown", ".menuHidden");
-
-  if (!visible) {
-
-    navigation.style.visible;
-
+  if ((navigation.style.visibility = "visible")) {
+    navigation.style.visibility = "hidden";
   } else {
-
-    navigation.style.hidden;
-
+    navigation.style.visibility = "visible";
   }
-
-  visible = !visible;
-
 }
+
+menuIcon.addEventListener("click", toggleMenu);
